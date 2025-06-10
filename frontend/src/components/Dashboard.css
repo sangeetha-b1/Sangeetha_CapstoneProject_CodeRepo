@@ -1,0 +1,82 @@
+
+.dashboard-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.dashboard-container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1.5rem;
+}
+
+.charts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.chart-container {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 500px;
+}
+
+.chart-container h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.chatbot-container {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.chatbot-container input {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.chart-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.chart-container li {
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+
+.chatbot-container button {
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.chatbot-container button:hover {
+    background-color: #1565c0;
+}
+
+.chatbot-container p {
+    margin-top: 10px;
+    font-weight: bold;
+}
